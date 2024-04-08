@@ -24,17 +24,17 @@ Status: Concluído!
 
 ### ♦ Estilo 80s
 <p align="center" >
-     <img width="600" heigth="600" src="src/main/resources/static/w_Benites_1.png">
+     <img width="600" heigth="600" src="assets/print1.png">
 </p>
 
 ### ♦ Estilo 2024s
 <p align="center" >
-     <img width="600" heigth="600" src="src/main/resources/static/w_Benites_1.png">
+     <img width="600" heigth="600" src="assets/print2.png">
 </p>
 
-### ♦ Easter egg aparece ao clica na idade 
+### ♦ Easter egg aparece ao clicar na idade 
 <p align="center" >
-     <img width="600" heigth="600" src="src/main/resources/static/w_Benites_1.png">
+     <img width="600" heigth="600" src="assets/print3.png">
 </p>
 
 GitHub Pages
