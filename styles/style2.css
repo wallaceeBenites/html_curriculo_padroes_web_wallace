@@ -256,4 +256,19 @@ body {
     margin: 0% 2%;
 }
 
+.rodape{
+    margin: 5% 0% 0% 0%;
+    display: flex;
+    background-color: var(--cor-terciaria);
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape a{
+    font-family: var(--font-pricipal);
+    font-size: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
 
