@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --font-pricipal: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+
+    --cor-primaria: #000000;
+    --cor-secundaria: #5800FF;
+    --cor-terciaria: #E900FF;
+    --cor-fundo: #513486;
+
+    --cor-hover: #f1f1f1;
+
+
+
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 2% 40%;
+    
+
+}
+
+.cabecalho_nav{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cabecalho_nav_link{
+    font-family: var(--font-secundaria);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    
+}
+
+.cabecalho_nav_link:hover{
+    color: var(--cor-hover);
+}
+
+.curriculo{
+
+    margin: 0% 20%;
+    display: flex;
+    border: 2px solid var(--cor-terciaria);
+
+}
+
+.curriculo_informacoes{
+    width: 30%;
+    background-color: var(--cor-fundo);
+    
+}
+
+.curriculo_informacoes_foto{
+    width: 70%;
+    border-radius: 50%;
+    border: 10px solid var(--cor-terciaria);
+    margin: 10%;
+}
+
+.curriculo_informacoes_contato{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 5%;
+    gap: 5px;
+    border-top: 2px solid var(--cor-terciaria);
+    
+}
+
+
+
+
+.curriculo_informacoes_contato_titulo{
+    font-family: var(--font-secundaria);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+}
+
+.icones{
+    width: 5%;
+}
+
+.curriculo_informacoes_contato_info{
+    font-family: var(--font-secundaria);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+}
+
+.curriculo_informacoes_contato_info:hover{
+    color: var(--cor-hover);
+}
+.curriculo_informacoes_competencias{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    gap: 5px;
+    border-top: 2px solid var(--cor-terciaria);
+}
+
+.curriculo_informacoes_competencias_lista{
+    margin: 5%;
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+}
+
+.curriculo_informacoes_idiomas{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    gap: 5px;
+    border-top: 2px solid var(--cor-terciaria);
+
+}
+
+.curriculo_informacoes_idiomas_subtitulo{
+
+    font-family: var(--font-secundaria);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+
+}
+
+.curriculo_informacoes_idiomas_paragrafo{
+
+    font-family: var(--font-secundaria);
+    color: var(--cor-terciaria);
+
+}
+
+
+.curriculo_resumo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% ;
+    gap: 5px;
+    border-top: 2px solid var(--cor-terciaria);
+
+}
+
+.curriculo_resumo_titulo_nascimento{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.curriculo_resumo_titulo_nascimento_titulo{
+
+    margin: 5% 5% 5% 15%;
+    font-family: var(--font-secundaria);
+
+}
+
+.curriculo_resumo_titulo_nascimento_nascimento{
+
+    border: 2px solid var(--cor-fundo);
+    background-color: var(--cor-fundo);
+    margin: 4%;
+    padding: 1%;
+    border-radius: 16px;
+
+}
+
+.curriculo_resumo_titulo_nascimento_nascimento h2{
+    font-family: var(--font-secundaria);
+    font-size: 1rem;
+    color: var(--cor-terciaria);
+
+}
+
+.curriculo_resumo_objetivo{
+    margin: 0% 5% 5% 5%;
+    padding: 2%;
+    border-top: 2px solid var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+}
+
+.curriculo_resumo_objetivo p{
+    color: var(--cor-terciaria);
+    margin: 2%;
+
+    
+}
+
+.curriculo_resumo_educacao{
+    margin: 0% 5% 5% 5%;
+    padding: 2%;
+    border-top: 2px solid var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+}
+
+
+
+.curriculo_resumo_educacao p{
+    color: var(--cor-terciaria);
+    font-size: 1.3rem;
+    margin: 2% 0%;
+
+}
+
+.curriculo_resumo_educacao ul{
+    margin: 0% 2%;
+}
+
+
