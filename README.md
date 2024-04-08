@@ -8,7 +8,7 @@ Status: Concluído!
 
 - Resultado do meu trabalho de Padrões Web 
 - Criando um currículo em HTML + CSS
-- Foi criado para ser visualizado de um computador (não é Responsivo e até então não pretendo fazer Responsivo) 
+- Foi criado com Web Design Responsivo 
 
 
 ## Principais tecnologias utilizadas 
@@ -30,6 +30,11 @@ Status: Concluído!
 ### ♦ Estilo 2024s
 <p align="center" >
      <img width="600" heigth="600" src="assets/print2.png">
+</p>
+
+### ♦ celular  
+<p align="center" >
+     <img width="600" heigth="600" src="assets/celular.jpeg">
 </p>
 
 ### ♦ Easter egg aparece ao clicar na idade 
