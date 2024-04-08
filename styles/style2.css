@@ -86,7 +86,7 @@ body {
 
 .curriculo{
 
-    margin: 0% 20%;
+    margin: 0% 15%;
     display: flex;
     border: 2px solid var(--cor-terciaria);
 
