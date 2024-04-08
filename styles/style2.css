@@ -4,10 +4,10 @@
     --font-pricipal: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
 
-    --cor-primaria: #000000;
-    --cor-secundaria: #5800FF;
-    --cor-terciaria: #E900FF;
-    --cor-fundo: #513486;
+    --cor-primaria: #f1f1f1;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #000000;
+    --cor-fundo: #0828b3b9;
 
     --cor-hover: #f1f1f1;
 
@@ -20,13 +20,13 @@
     border: 0;
     padding: 0;
 
+    
+
 }
 
 body {
     box-sizing: border-box;
-    background-image: url(../assets/OIG1.TTOKTl.I8mfCabuWY.jpeg);
-    background-size: cover; 
-    background-position: center;
+    background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .curriculo{
-    background-color: var(--cor-primaria);
+
     margin: 0% 20%;
     display: flex;
     border: 2px solid var(--cor-terciaria);
@@ -196,11 +196,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-
-.easter_egg{
-    color: var(--cor-terciaria);
-    text-decoration: none;
 }
 
 .curriculo_resumo_titulo_nascimento_titulo{
