@@ -250,6 +250,8 @@ body {
 
 
 
+
+
 .curriculo_resumo_educacao p{
     color: var(--cor-terciaria);
     font-size: 1.3rem;
@@ -274,6 +276,32 @@ body {
     font-size: 0.5rem;
     color: #000000;
     text-decoration: none;
+}
+
+@media (max-width: 1300px) {
+
+    .curriculo{
+        background-color: var(--cor-primaria);
+        margin: 0% 15%;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid var(--cor-terciaria);
+    
+    }
+
+    .curriculo_informacoes{
+        width: 100%;
+        background-color: var(--cor-fundo);
+        
+    }
+
+    .cabecalho{
+        padding: 2%;
+        
+    
+    }
+
+
 }
 
 
