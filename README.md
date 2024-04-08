@@ -37,6 +37,6 @@ Status: Concluído!
      <img width="600" heigth="600" src="assets/print3.png">
 </p>
 
-GitHub Pages
+Link Vercel 
 ---
---> [https://wallaceebenites.github.io/Decodificador/](https://wallaceebenites.github.io/javascrip_decodificador/)
+--> [[https://wallaceebenites.github.io/Decodificador/](https://wallaceebenites.github.io/javascrip_decodificador/)](https://html-curriculo-padroes-web-wallace.vercel.app/)
