@@ -33,6 +33,7 @@ body {
 .cabecalho{
     padding: 2% 40%;
     
+    
 
 }
 
@@ -40,6 +41,7 @@ body {
 
     display: flex;
     justify-content: space-between;
+    gap: 5%;
 
 }
 
